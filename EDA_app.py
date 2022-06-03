@@ -9,5 +9,10 @@ df = pd.read_csv('https://raw.githubusercontent.com/dfdavila2/TFM_2022_dfdavila/
 
 # https://github.com/dfdavila2/TFM_2022_dfdavila/blob/main/cleaned_data.csv')
 
-pr = df.profile_report()
+# pr = df.profile_report()
+
+pr = df.profile_report(title="Pandas Profiling Report", explorative=True)
+
+profile = ProfileReport(df, )
+
 st_profile_report(pr)
