@@ -1,3 +1,4 @@
+pip install pip==22.1.2
 pycaret
 streamlit
 pandas
