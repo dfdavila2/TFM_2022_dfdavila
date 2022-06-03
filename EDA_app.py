@@ -13,6 +13,6 @@ pr = df.profile_report()
 
 # pr = df.profile_report(title="Pandas Profiling Report", explorative=True)
 
-profile = ProfileReport(df, )
+# profile = ProfileReport(df, )
 
 st_profile_report(pr)
