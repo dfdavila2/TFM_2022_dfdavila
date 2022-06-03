@@ -24,7 +24,7 @@ def predict_quality(model, df):
     
     return predictions_data['Label'][0]
     
-model = load_model('./catboost_71')
+model = load_model('catboost_71')
 
 st.title('Length of Stay Classifier Web App')
 
