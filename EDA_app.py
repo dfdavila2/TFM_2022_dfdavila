@@ -13,7 +13,9 @@ def load_data():
 
 # https://github.com/dfdavila2/TFM_2022_dfdavila/blob/main/cleaned_data.csv')
 
-pr = load_data().profile_report()
+ld = load_data()
+
+pr = ld.profile_report()
 
 # pr = df.profile_report(title="Pandas Profiling Report", explorative=True)
 
