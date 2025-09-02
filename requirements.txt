@@ -1,4 +1,4 @@
-pip==25.2 
+pip
 pycaret==2.3.10
 streamlit
 pandas
